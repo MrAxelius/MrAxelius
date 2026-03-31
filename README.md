@@ -1,7 +1,8 @@
 # Axel — Estudiante de Ingeniería Informática
 
 Apasionado por el desarrollo de videojuegos
-C++, arquitectura de sistemas, patrones de diseño
+C++
+Java
 
 Mis proyectos personales:
 
