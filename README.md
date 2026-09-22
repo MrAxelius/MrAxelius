@@ -1,13 +1,25 @@
-# Axel — Estudiante de Ingeniería Informática
+## Hi, I'm Axel
 
-Apasionado por el desarrollo de videojuegos
-C++
-Java
+Second-year Computer Engineering student at UIB, in Mallorca. I write C++,
+mostly because I want to understand what happens underneath — memory layout,
+what the compiler actually emits, where the time goes. Low-level systems and
+performance are where I want to end up.
 
-Mis proyectos personales:
+I learn by building things that are slightly harder than what I know how to do,
+and by reading the standard library when I get stuck.
 
-https://github.com/mraxeliuss-cloud/TurnBasedCombatSystemCpp 
-Primera toma de contacto con el mundo del desarrollo. Sistema básico de combate por turnos, con efectos, habilidades y objetos. Aprendí gestión de memoria con smart pointers, herencia y polimorfismo, a hacer bien las cosas desde el principio
+### What I'm working on
 
-https://github.com/mraxeliuss-cloud/semiTurn-basedCombatCpp
-Proyecto actual en desarrollo, sistema de combate por semiturnos con SFML. Estoy aprendiendo sobre arquitecutra MVC, patrones de diseño complejos, game loop, patrón command, y trabajando en un concimento de render y delta time
+**[FunctionParser](https://github.com/MrAxelius/FunctionParser)** — a C++20
+library for parsing and evaluating mathematical expressions. Hand-written lexer
+with positioned errors, shunting-yard parser building an AST, recursive
+evaluator, and sampling over a range. Public API behind a pImpl facade,
+versioned with an inline namespace, tested with Catch2.
+
+**[Function-render](https://github.com/MrAxelius/Function-render)** — a function
+viewer built on SFML, and the reason FunctionParser exists. 2D plotting and a 3D
+surface pipeline with my own vector and matrix types, because writing the
+projection math myself was the point.
+
+### Currently
+Learning where my code breaks by writing the tests I'd rather not write.
